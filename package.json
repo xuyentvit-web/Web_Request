@@ -1,0 +1,27 @@
+{
+  "name": "web-request",
+  "version": "1.0.0",
+  "description": "Web gửi và xử lý yêu cầu nội bộ",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server/index.js",
+    "test": "node --disable-warning=ExperimentalWarning --test test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xuyentvit-web/web_request.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xuyentvit-web/web_request/issues"
+  },
+  "homepage": "https://github.com/xuyentvit-web/web_request#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "express": "^4.22.3",
+    "web-push": "^4.0.0"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=22.13"
+  }
+}
